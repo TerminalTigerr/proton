@@ -3,25 +3,31 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
 		<link rel="stylesheet" href="./css/main.css">
 		<title>Proton</title>
 	</head>
 	<body>
-		<nav class="flex justify-between mx-10 mt-5">
+		<nav class="flex justify-between mx-14 mt-7">
 			<div class="flex space-x-5 items-center">
-				<img src="./img/Protonn_Logo-removebg-preview.png" alt="" class="">
-				<a href="#product">Product</a>
-				<a href="#use">Use Cases</a>
+				<img src="./img/Protonn_Logo_1-removebg-preview.png" alt="" class="">
+				<a href="#product" class="hover:text-myblue hover:underline-offset-8">Product</a>
+				<div class="space-x-1 items-center text-center cursor-pointer hover:text-myblue">
+					<a href="#use">Use Cases</a>
+					<i class="ri-arrow-drop-down-fill text-myblue text-base"></i>
+				</div>
 			</div>
 
 			<div class="flex space-x-5 items-center">
-				<a href="">Pricing</a>
-				<div>
+				<a href="#pricing" class="hover:text-myblue">Pricing</a>
+				<div class="space-x-1 items-center cursor-pointer hover:text-myblue">
 					<a href="">Resources</a>
+					<i class="ri-arrow-drop-down-fill text-myblue text-base"></i>
 				</div>
-				<div>
-					<a href="">Get Started</a>
-				</div>
+				
+				<a href="" class="bg-myblue py-1 px-4 text-center text-white rounded-xl shadow-md hover:bg-blue-500">
+					Get Started
+				</a>
 			</div>
 		</nav>
 	</body>
